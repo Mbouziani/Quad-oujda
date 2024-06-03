@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "cover": "assets/quad_cover_1.jpg",
         }, 
         "product_section":{
-            "title": "Libérez Votre Esprit d'Aventure",
+            "title": "Nos Quads",
             "desc": "Découvrez notre sélection de quads tout-terrain haut de gamme, prêts à vous emmener dans des aventures inoubliables dans la nature sauvage.",
             "products":[
                 {
