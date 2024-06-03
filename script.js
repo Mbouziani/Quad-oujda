@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 
         "memory_section":{
             "title": "Aventures en Quad",
-            "desc": "Vivre une aventure épique en quad avec mes meilleurs amis.",
+            "desc": "Vivez une aventure épique en quad avec tes meilleurs amis.",
             "memories":[
                 {
                     "title": "Card 1",
