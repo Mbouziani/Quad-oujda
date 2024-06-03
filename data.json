@@ -1,0 +1,57 @@
+{
+    "logo": "assets/quad_logo.png",
+    "coverTitle": "Welcome to Our Website",
+    "coverDescription": "We provide the best services.",
+    "coverImages": [
+        "assets/quad_cover_1.jpg",
+        "assets/quad_cover_2.jpg",
+        "assets/quad_cover_3.jpg",
+        "assets/quad_cover_4.jpg",
+        "assets/quad_cover_5.jpg",
+        "assets/quad_cover_6.jpg"
+    ],
+    "aboutUs": "We are a team of dedicated professionals...",
+    "gallery": [
+        {
+            "photo": "assets/photo1.jpg",
+            "title": "Card 1",
+            "description": "Description for card 1."
+        },
+        {
+            "photo": "assets/photo2.jpg",
+            "title": "Card 2",
+            "description": "Description for card 2."
+        },
+        {
+            "photo": "assets/photo3.jpg",
+            "title": "Card 3",
+            "description": "Description for card 3."
+        },
+        {
+            "photo": "assets/photo4.jpg",
+            "title": "Card 4",
+            "description": "Description for card 4."
+        },
+        {
+            "photo": "assets/photo5.jpg",
+            "title": "Card 5",
+            "description": "Description for card 5."
+        },
+        {
+            "photo": "assets/photo6.jpg",
+            "title": "Card 6",
+            "description": "Description for card 6."
+        }
+    ],
+    "contactEmail": "contact@yourcompany.com",
+    "socialMedia": [
+        {
+            "name": "Facebook",
+            "link": "https://facebook.com"
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com"
+        }
+    ]
+}
