@@ -38,7 +38,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 {
                     "title": "Card 1",
+                    "image": "assets/quad8.jpg", 
+                },
+                {
+                    "title": "Card 1",
                     "image": "assets/quad5.jpg", 
+                },
+                {
+                    "title": "Card 1",
+                    "image": "assets/quad7.jpg", 
                 },
                 {
                     "title": "Card 1",
@@ -47,7 +55,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     "title": "Card 1",
                     "image": "assets/quad6.jpg", 
-                }
+                },
+                {
+                    "title": "Card 1",
+                    "image": "assets/quad9.jpg", 
+                },
             ]
         }, 
         "memory_section":{
