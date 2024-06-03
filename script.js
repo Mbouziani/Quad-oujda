@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "image": "assets/quad4.jpg", 
                 },{
                     "title": "Card 1",
-                    "image": "assets/quad_cover_3.jpg", 
+                    "image": "assets/quad55.jpg", 
                 },
                 {
                     "title": "Card 1",
