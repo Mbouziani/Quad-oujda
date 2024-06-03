@@ -50,6 +50,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ]
         }, 
+        "memory_section":{
+            "title": "Aventures en Quad",
+            "desc": "Vivre une aventure épique en quad avec mes meilleurs amis.",
+            "memories":[
+                {
+                    "title": "Card 1",
+                    "image": "assets/turn1.jpg", 
+                },
+                {
+                    "title": "Card 1",
+                    "image": "assets/turn2.jpg", 
+                },
+                {
+                    "title": "Card 1",
+                    "image": "assets/turn3.jpg", 
+                }, 
+            ]
+        }, 
         "about_section":{
             "title": "À Propos de Nous",
             "desc": "Bienvenue chez Quad Aventure! Nous sommes passionnés par l'aventure et dédiés à offrir des expériences inoubliables à nos clients. Que vous soyez un novice à la recherche de sensations fortes ou un expert du tout-terrain, nos quads de haute qualité et notre service exceptionnel vous garantiront une journée remplie d'excitation et de découvertes. Rejoignez-nous pour explorer des paysages époustouflants et créer des souvenirs impérissables. La sécurité, le plaisir et l'aventure sont au cœur de notre mission. Venez vivre l'aventure avec Quad Aventure!",
@@ -120,6 +138,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
      
     //-------------------------------------------------------------------------------------------------//
+    
+    // Memory Section
+    document.getElementById('memory-section-title').textContent = data.memory_section.title;
+    document.getElementById('memory-section-desc').textContent = data.memory_section.desc;
+
+    const memoriesGrid = document.getElementById('memory-grid');
+    data.memory_section.memories.forEach(pr => {
+        const card = document.createElement('div');
+        card.classList.add('product-card');
+        card.style.backgroundImage = `url(${pr.image})`;   
+        memoriesGrid.appendChild(card);
+    });
+  
+ //-------------------------------------------------------------------------------------------------//
 
     // About Section
     document.getElementById('about-section-title').textContent = data.about_section.title;
