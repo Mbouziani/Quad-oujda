@@ -113,19 +113,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 {
                     "name": "Instagram",
-                    "link": "mailto:bouzimoha150@gmail.com",
+                    "link": "https://www.instagram.com/quad.oujda/",
                     "class":"sc-instagram",
                     "icon":"fab fa-instagram"
                 },
                 {
                     "name": "snapchat", 
-                    "link": "https://www.facebook.com/Cristiano/",
+                    "link": "https://www.facebook.com/Quadoujda/",
                     "class":"sc-snapshat",
                     "icon":"fab fa-snapchat-ghost"
                 },
                 {
                     "name": "gmail",
-                    "link": "mailto:bouzimoha150@gmail.com",
+                    "link": "mailto:quadoujda@gmail.com",
                     "class":"sc-gmail",
                     "icon":"fas fa-envelope"
                 },
