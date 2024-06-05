@@ -230,6 +230,10 @@ nav ul li a:hover {
     background: linear-gradient(135deg, #23ABE2, #25D366);
 }
 
+.sc-tiktok {
+    background: linear-gradient(135deg, #121b1f, #2f3131);
+}
+
 /* Hover styles */
 .sc-facebook:hover {
     background: linear-gradient(135deg, #1980d4, #0b53e6);
@@ -251,6 +255,9 @@ nav ul li a:hover {
     background: linear-gradient(135deg, #25D366, #23ABE2);
 }
 
+.sc-tiktok:hover {
+    background: linear-gradient(135deg, #2f3131, #040505);
+}
 
 /*--------------------------------------------------------------------------*/
 

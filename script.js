@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 {
                     "name": "snapchat", 
-                    "link": "https://www.facebook.com/Quadoujda/",
+                    "link": "https://snapchat.com/t/kEshJ02i",
                     "class":"sc-snapshat",
                     "icon":"fab fa-snapchat-ghost"
                 },
@@ -129,9 +129,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     "class":"sc-gmail",
                     "icon":"fas fa-envelope"
                 },
+                 {
+                    "name": "tiktok",
+                    "link": "https://www.tiktok.com/@quad.oujda",
+                    "class":"sc-tiktok",
+                    "icon":"fab fa-tiktok"
+                },
                 {
                     "name": "whatsapp",
-                    "link": "https://www.Instagram.com/Cristiano/",
+                    "link": "https://wa.me/+212627272318?text=Hello%20there!",
                     "class":"sc-whatsapp",
                     "icon":"fab fa-whatsapp"
                 }
