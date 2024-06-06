@@ -25,9 +25,11 @@ header {
 
 header .logo {
     margin-inline-start: 30px;
+    margin-top: 16px;
     width: 100px;
-    height: 100px; 
-    background-size: cover; 
+    height: 70px; 
+    background-size: contain; 
+    background-repeat: no-repeat;
 }
 
 nav ul {
@@ -278,6 +280,11 @@ footer {
     nav ul {
         display: none; /* Hide the navigation list */
     }
+
+    
+header .logo { 
+    height:120px;  
+}
 }
  
  
