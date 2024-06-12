@@ -211,6 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.classList.add(cn.class);
         card.target ="_blank"  ;
         card.href=cn.link;
+        card.innerText = cn.class;
         card.innerHTML = `<i class="${cn.icon}"></i>`;
         contactGrid.appendChild(card);
     });
