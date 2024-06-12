@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    font-display: swap; /* Add font-display property */
+}
+
 :root {
     --base-color: #d6581d;
     --base-hover-color: rgb(31, 29, 29);
@@ -26,9 +32,9 @@ header {
 header .logo {
     margin-inline-start: 30px;
     margin-top: 16px;
-    width: 100px;
+    width: auto;
     height: 70px; 
-    background-size: contain; 
+    background-size: auto; 
     background-repeat: no-repeat;
 }
 
@@ -63,10 +69,19 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     color: #fff;
-    background-size: cover;
-    background-position: center;
-   
+    overflow: hidden; /* Ensure content doesn't overflow the section */
 }
+
+#home_img {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    object-fit: cover; /* Ensure the image covers the entire section */
+    z-index: 0; 
+    width: 100%; 
+    height: 100vh; 
+}
+
 
 #home .overlay {
     position: absolute;
@@ -151,11 +166,11 @@ nav ul li a:hover {
     align-items: end;
     border: 1px solid #e25514;
     height: 350px;
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure the image covers the entire section */
     background: #fff;  
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.192), 0 1px 3px rgba(0, 0, 0, 0.08);
-    background-size: cover;
- }
+  }
  
 .product-card h3 {
     font-size: 18px; 
