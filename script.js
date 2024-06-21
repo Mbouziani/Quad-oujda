@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "location_section":{
             "title": "Notre Emplacement",
             "desc": "Retrouvez-nous au cœur de paysages naturels époustouflants. Utilisez notre carte interactive pour nous localiser facilement et planifier votre aventure en quad.",
-            "mapUrl" :"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3278.689045027259!2d-1.8716502242538793!3d34.738231672906416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ0JzE3LjYiTiAxwrA1MicwOC43Ilc!5e0!3m2!1sfr!2sma!4v1717499931975!5m2!1sfr!2sma" ,
+            "mapUrl" :"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d839.5921448054809!2d-1.8686125941879523!3d34.739679721944086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ0JzIyLjciTiAxwrA1MicwNS4wIlc!5e0!3m2!1sfr!2sma!4v1718993023622!5m2!1sfr!2sma" ,
         },
         "contact_section":{
             "title": "Contactez-Nous",
